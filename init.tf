@@ -10,8 +10,3 @@ terraform {
 provider "azurerm" {
   features {}
 }
-
-resource "azurerm_resource_group" "anm_rg" {
-  name     = "TerraformRG"
-  location = "westeurope"
-}

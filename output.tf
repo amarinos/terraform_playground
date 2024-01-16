@@ -1,5 +1,5 @@
-output "hello_world" {
-  value = "Hello, World!"
+output "testing_message" {
+  value = "We are testing our Terraform code!"
 }
 
 output "rg_location" {
