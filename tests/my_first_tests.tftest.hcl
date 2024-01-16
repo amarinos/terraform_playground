@@ -14,7 +14,7 @@ run "unit_test" {
 
     assert {
     condition     = azurerm_storage_account.mystorage.account_replication_type != "RAGRS"
-    error_message = "Storage account shredundancy should not be Read-Access geo redundant"
+    error_message = "Storage account redundancy should not be Read-Access geo redundant"
   }
 
 }
